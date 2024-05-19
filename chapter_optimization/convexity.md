@@ -363,7 +363,7 @@ In the context of deep learning the main purpose of convex functions is to motiv
     1. Prove that it is sufficient to check only the points on the boundary.
     1. Prove that it is sufficient to check only the vertices of the set.
 1. Denote by $\mathcal{B}_p[r] \stackrel{\textrm{def}}{=} \{\mathbf{x} | \mathbf{x} \in \mathbb{R}^d \textrm{ and } \|\mathbf{x}\|_p \leq r\}$ the ball of radius $r$ using the $p$-norm. Prove that $\mathcal{B}_p[r]$ is convex for all $p \geq 1$.
-1. Given convex functions $f$ and $g$, show that $\mathrm{max}(f, g)$ is convex, too. Prove that $\mathrm{min}(f, g)$ is not convex.
+1. Given convex functions $f$ and $g$, show that $\mathrm{max}(f, g)$ is convex, too. Prove that $\mathrm{min}(f, g)$ is not necessarily convex.
 1. Prove that the normalization of the softmax function is convex. More specifically prove the convexity of
     $f(x) = \log \sum_i \exp(x_i)$.
 1. Prove that linear subspaces, i.e., $\mathcal{X} = \{\mathbf{x} | \mathbf{W} \mathbf{x} = \mathbf{b}\}$, are convex sets.
